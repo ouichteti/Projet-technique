@@ -1,0 +1,163 @@
+/* Global styles for all components */
+$primary: #0095e8;
+.material {
+  border-color: #007bff;
+  border-radius: 0px;
+}
+
+/* Custom Checkbox Styles */
+.custom-checkbox .mat-pseudo-checkbox-checked.mat-pseudo-checkbox-full,
+.custom-checkbox .mat-pseudo-checkbox-indeterminate.mat-pseudo-checkbox-full {
+  background: #0095e8 !important; /* Your desired background color */
+}
+
+/* Custom Dropdown Checkbox */
+.custom-dropdown .mat-pseudo-checkbox-checked.mat-pseudo-checkbox-full .mat-pseudo-checkbox-inner,
+.custom-dropdown .mat-pseudo-checkbox-indeterminate.mat-pseudo-checkbox-full .mat-pseudo-checkbox-inner {
+  background-color: #0095e8 !important; /* Your desired color for the tick */
+  color: #0095e8 !important; /* Your desired color for other styles, if needed */
+}
+
+/* Custom Radio Button Styles */
+.custom-radio .mat-radio-button-checked .mat-radio-container .mat-radio-outer-circle,
+.custom-radio .mat-radio-button-checked .mat-radio-container .mat-radio-inner-circle {
+  background-color: #0095e8 !important;
+  color: #0095e8 !important;
+}
+
+/* Minimal Checkbox Styles */
+.custom-dropdown .mat-pseudo-checkbox-checked.mat-pseudo-checkbox-minimal::after,
+.custom-dropdown .mat-pseudo-checkbox-indeterminate.mat-pseudo-checkbox-minimal::after,
+.custom-checkbox .mat-pseudo-checkbox-checked.mat-pseudo-checkbox-minimal::after,
+.custom-checkbox .mat-pseudo-checkbox-indeterminate.mat-pseudo-checkbox-minimal::after {
+  color: #0095e8 !important;
+}
+
+/* Custom Radio Button Inner Circle Styles */
+.custom-radio .mat-radio-button-checked .mat-radio-container .mat-radio-outer-circle::before,
+.custom-radio .mat-radio-button-checked .mat-radio-container .mat-radio-inner-circle::before,
+.mat-mdc-radio-button.mat-mdc-radio-checked .mdc-radio__background::before {
+  background-color: #0095e8 !important;
+  color: #0095e8 !important;
+}
+
+.mat-mdc-radio-button.mat-mdc-radio-checked .mat-ripple-element {
+  background-color: #0095e8 !important;
+  color: #0095e8 !important;
+}
+
+.mat-mdc-radio-button.mat-mdc-radio-checked .mdc-radio__background::before {
+  background-color: #0095e8 !important;
+  color: #0095e8 !important;
+}
+
+.mat-mdc-radio-button .mdc-radio .mdc-radio__native-control:enabled + .mdc-radio__background .mdc-radio__inner-circle {
+  border-color: #0095e8 !important;
+}
+
+.mat-mdc-radio-button .mdc-radio .mdc-radio__native-control:enabled:checked + .mdc-radio__background .mdc-radio__outer-circle {
+  border-color: #0095e8 !important;
+}
+.placeholder-color {
+  background: #000000;
+  opacity: 0.6;
+}
+.loading-button-container {
+  position: fixed;
+  top: 55%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.loading-button {
+  padding: 10px 20px;
+  border: 2px solid #3b3b64; /* Border color */
+  background-color: #3b3b64; /* Button background color */
+  color: #ffffff; /* Button text color */
+  border-radius: 5px;
+  cursor: not-allowed;
+}
+
+.loading-button .spinner-border {
+  margin-right: 8px; /* Add spacing between spinner and text */
+}
+.custom-modal-class {
+  padding-left: 10% !important;
+}
+.custom-ignore-tailwind {
+  height: auto !important;
+  --bs-btn-font-size: unset !important;
+}
+.user-image {
+  border-color: #339c9e;
+}
+.mat-mdc-select-placeholder {
+  font-size: 13px;
+  color: #525252;
+  font-weight: 500;
+  font-family: 'Poppins';
+}
+.pulsate {
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.65);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.pulsateBadge {
+  animation: pulsebadge 1s infinite;
+}
+@keyframes pulsebadge {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.09);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.width-500 {
+  width: 1000px !important;
+}
+.position {
+  z-index: 105;
+  position: fixed;
+  inset: 0px 0px auto auto;
+  margin: 0px;
+  transform: translate(-119px, 110px);
+
+  left: 79%;
+  top: 11%;
+}
+
+.element-style {
+  left: -305px !important;
+  margin-top: 6px !important;
+  min-width: 500px;
+}
+.center-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.collapse {
+  visibility: visible !important;
+}

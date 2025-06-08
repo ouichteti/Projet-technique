@@ -1,0 +1,16 @@
+# Backend
+todo-backend/target/
+todo-backend/.mvn/
+todo-backend/.idea/
+todo-backend/*.iml
+
+# Frontend
+todo-front/node_modules/
+todo-front/dist/
+todo-front/.angular/
+todo-front/.idea/
+
+# Global
+*.log
+.DS_Store
+.yo-repository/

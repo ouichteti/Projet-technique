@@ -1,0 +1,19 @@
+{
+  "generator-jhipster": {
+    "baseName": "todoFront",
+    "clientFramework": "angular",
+    "clientTestFrameworks": [],
+    "clientTheme": "none",
+    "creationTimestamp": 1749286911332,
+    "devServerPort": 4200,
+    "enableTranslation": false,
+    "entities": [],
+    "jhipsterVersion": "8.1.0",
+    "microfrontend": null,
+    "microfrontends": [],
+    "nativeLanguage": "fr",
+    "skipServer": true,
+    "testFrameworks": [],
+    "withAdminUi": true
+  }
+}

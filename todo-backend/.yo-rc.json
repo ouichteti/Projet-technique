@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "TodoBackend",
+    "buildTool": "maven",
+    "cacheProvider": "no",
+    "creationTimestamp": 1748991182563,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "enableGradleEnterprise": null,
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": false,
+    "entities": [],
+    "feignClient": false,
+    "gradleEnterpriseHost": null,
+    "jhipsterVersion": "8.1.0",
+    "jwtSecretKey": "OTJkNTgxYWRjMjI3YTA0NjdiOGE2Y2UxZTBmNWFmYWRmYzk0Y2FjNjk0Y2JmY2Q4ZGJmZTBlOWMxZjc3NTJiOThhNmRhN2VhYjZhOTQxZjczZTM3NDRmMzVhZjdlMDgxY2FmZWVkMzYwODM2Mjk2YzU1MGI2YjZkMzQ2N2RkMGY=",
+    "messageBroker": false,
+    "nativeLanguage": "fr",
+    "packageName": "com.nat.todoapp",
+    "prodDatabaseType": "postgresql",
+    "reactive": false,
+    "searchEngine": false,
+    "serverPort": null,
+    "serverSideOptions": [],
+    "serviceDiscoveryType": false,
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false
+  }
+}
